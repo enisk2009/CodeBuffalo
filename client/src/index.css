@@ -8,12 +8,6 @@ font-family: "Verdana"
 text-align: center;
 color:white;
 font-size: 40px;
-/* position: fixed;
-top: 60px;
-left:15%;
-display: block;
-margin: auto;
-padding: 0px; */
 }
 
 
@@ -76,10 +70,6 @@ cursor: pointer;
   border:none;
   outline:0;
   cursor: pointer;
-  /* position: absolute;
-  left:0px;
-  top:0px; */
-
 }
 
 #Refresh button{
@@ -95,7 +85,7 @@ cursor: pointer;
   position: relative;
   left: 0%;
   top: 0px;
-
+  
   border:none;
   cursor: pointer;
   outline:0;
@@ -103,16 +93,10 @@ cursor: pointer;
 }
 
 #activity h1{
-  /* margin-top: 0%; */
-  /* padding:0px; */
-  /* position: absolute; */
   text-align: center;
   color: white;
-   margin: auto;
-
+  margin: auto;
   padding:20px;
-  /* top : 10%; */
-
 }
 
 #LocationInput form{

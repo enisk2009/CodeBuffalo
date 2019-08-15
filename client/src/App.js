@@ -14,7 +14,6 @@ import RandomEvent from './components/randomEvent';
 
 //apollo client setup, connects front end react, with back end node.js and graphql server
 const client = new ApolloClient({
-//  uri: "http://192.168.1.158:4000/"
 uri: "http://localhost:4000/"
 })
 

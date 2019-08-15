@@ -23,6 +23,7 @@ class activity extends Component{
   }
 
   displayActivity(){
+    //graphql returns the reuslt of the query into the props
     var data = this.props.data;
 
     if (data.loading){
@@ -35,16 +36,13 @@ class activity extends Component{
 
 
 render(){
-console.log(this.props.data);
 
   return(
 
 <div id= 'activity'>
 
-
 <Back/>
 <h1>{this.displayActivity()}</h1>
-
 <Refresh currentURL = {this.state.currentURL}/>
 
 </div>

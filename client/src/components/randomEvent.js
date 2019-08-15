@@ -6,7 +6,7 @@ import {graphql, Query} from 'react-apollo';
 import Back from './back'
 import Refresh from './refresh'
 
-//make query for activities
+//make query for events
 const getEventByLocoQuery = gql`
 query($location:String!)
 {
@@ -54,12 +54,11 @@ class RandomEvent extends Component{
 
     render(){
 
-      console.log(this.props);
       return(
         <div id = 'RandomEvent'>
+
         <Back/>
         <h1>{this.displayEvent()}</h1>
-
 
         </div>
       )
@@ -68,18 +67,4 @@ class RandomEvent extends Component{
 
   export default graphql(getEventByLocoQuery)
 
-  //, {
-
-  // options:(props) => {
-  //   return{
-  //     variables:
-  //     {
-  //       location:'14221'
-  //     }
-  //   }
-  // }
-
-
-
-  //})
   (RandomEvent);
